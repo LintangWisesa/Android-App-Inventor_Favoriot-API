@@ -4,7 +4,7 @@
 
 [![Video Lintang](https://img.youtube.com/vi/pFlpfQpe6vI/0.jpg)](https://www.youtube.com/watch?v=pFlpfQpe6vI)
 
-1. This repo has the App Inventor source of this project (__.aia__ file), simply download or clone this repo:
+1. This repo contains the App Inventor source of this project (__.aia__ file), simply download or clone this repo:
 
     ```bash
     $ git clone https://github.com/LintangWisesa/Android-App-Inventor_Favoriot-API.git
@@ -23,7 +23,7 @@
     - __Textbox__ (_User Interface_)
     - __Button__ (_User Interface_)
     - __Notifier__ (_User Interface_)
-    - __Web__ (_Connectifity_)
+    - __Web__ (_Connectivity_)
 
     ![design](./design.png)
 
