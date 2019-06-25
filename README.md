@@ -2,13 +2,60 @@
 
 # Android MIT App Inventor & Favoriot API
 
-## _**Tutorial will be published here soon...**_
+[![Video Lintang](https://img.youtube.com/vi/pFlpfQpe6vI/0.jpg)](https://www.youtube.com/watch?v=pFlpfQpe6vI)
 
-![design](./design.png)
+1. ### This repo has the App Inventor source of this project (__.aia__ file), simply download or clone this repo:
 
-![get](./get.png)
+    ```bash
+    $ git clone https://github.com/LintangWisesa/Android-App-Inventor_Favoriot-API.git
+    ```
 
-![post](./post.png)
+#
+
+2. ### With your Google account, login to [__MIT App Inventor__](http://ai2.appinventor.mit.edu). Under __Projects__ menu, choose __Import project (.aia) from my computer__ then upload the __.aia__ file from this repo.
+
+    ![import](./import.png)
+
+#
+
+3. ### On its __Designer__ section, I use several components such as:
+    - ### __Label__ (_User Interface_)
+    - ### __Textbox__ (_User Interface_)
+    - ### __Button__ (_User Interface_)
+    - ### __Notifier__ (_User Interface_)
+    - ### __Web__ (_Connectifity_)
+
+    ![design](./design.png)
+
+#
+
+4. ### Here is the block code for GET & POST button on __Blocks__ section:
+
+    - ### __GET button__ block code:
+
+    ![get](./get.png)
+
+    ### *__Notes:__*
+   
+    ### - Insert your Favoriot's __device developer ID__ & __account name__ to the URL: _https://api.favoriot.com/v1/streams?device_developer_id=yourDevice@yourAccount&max=1&order=DESC_.
+   
+    ### - Insert your Favoriot's __API Key__ into the request header.
+
+    #
+
+    - ### __POST button__ block code:
+
+    ![post](./post.png)
+
+    ### *__Notes:__*
+   
+    ### - Set the URL to: _https://api.favoriot.com/v1/streams_.
+   
+    ### - Insert your Favoriot's __API Key__ into the request header.
+
+#
+
+5. ### Build the __.apk__ file. From __Build__ menu, choose one: __App (provide QR code for .apk)__ or __App (save .apk to my computer)__. Download & install it on your Android phone. Enjoy the app! 😎👌
 
 #
 
